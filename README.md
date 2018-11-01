@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+#### Derived in its entirety from https://github.com/lholmquist/react-web-app
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
@@ -8,7 +10,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 `find . | grep openshiftio | grep application | xargs -n 1 oc apply -f`
 
-`oc new-app --template react-web-app -p SOURCE_REPOSITORY_URL=https://github.com/lholmquist/react-web-app`
+`oc new-app --template react-web-app -p SOURCE_REPOSITORY_URL=https://github.com/nealef/react-web-app`
 
 ## Table of Contents
 
